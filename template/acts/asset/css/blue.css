@@ -1,0 +1,11 @@
+#header{
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, rgb(45,45,45)),
+		color-stop(.5, rgb(45,45,45)),
+		color-stop(.5, rgb(0,138,210)),
+		color-stop(1, rgb(87,124,150))
+	);
+}

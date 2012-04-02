@@ -1,0 +1,43 @@
+MINIMALIST
+
+frased
+v
+pipes
+v
+script
+v
+script action controller
+v
+generated blocks
+v
+template+blocks
+v
+UI+input
+
+user
+v
+register|login
+v
+make message, methods: phone|voIP recording
+v
+choose send methods: text|call|email
+v
+make+save+send contacts
+
+options
+v
+	create new
+	v
+		make message, methods: phone|voIP recording
+		v
+		choose send methods: text|call|email
+		v
+		make+save+send contacts
+	view frases
+	v
+		listen|listen over phone|delete
+	edit contacts
+	v
+		create
+		v
+			name+email+phone

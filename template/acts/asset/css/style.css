@@ -1,0 +1,273 @@
+/*
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+*/
+
+
+html, body {
+	background:url('../image/Flower-Vector-214.jpg') 0 0 no-repeat #C7C9CB;
+	margin:0px;
+	padding:0px;
+	color:#555;
+	font:12px Arial,Helvetica,Tahoma,Verdana,Sans-Serif;
+}
+form table {
+	margin:0px auto;
+}
+
+#page {
+	margin:0px;
+}
+
+
+
+/*..........GENERAL..........*/
+a:hover {
+	color: #E8A02C;
+}
+#header, #about, #menu, #footer, #middle, #social {
+}
+#headerContent, #aboutContent, #menuContent, #footerContent, #middleContent, #socialContent, #bottomContent {
+	width:960px;
+	margin:0px auto;
+	padding:20px;
+}
+
+
+
+/*..........MENU..........*/
+#menu {
+	clear: both;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 29px;
+	font-size: 11px;
+	background:#000;
+	border-bottom:1px solid #444;
+}
+#menuContent {
+	clear:both;
+	padding: 0;
+	margin: 0 auto;
+}
+#menu ul {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style:none inside none;
+	width:100%;
+	clear:both;
+	padding: 0;
+	list-style: none;
+}
+#menu li {
+	position: relative;
+	float: left;
+	list-style: none;
+}
+#menu li ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	z-index: 100;
+	position: absolute;
+	width: 130px;
+	left: 0px;
+	top:100%;
+}
+#menu li ul li {
+	border: 1px solid #F7F6F6;
+	border-width: 0 1px 1px;
+	background: white;
+}
+#menu a {
+	display: block;
+	padding: 0 10px;
+	padding: 0 10px;
+	z-index: 100;
+	color: #A0A09B;
+	text-decoration:none;
+}
+#menu a:hover {
+	color: #E8A02C;
+}
+
+
+
+
+/*..........SOCIAL BAR..........*/
+#social {
+	background:#222;
+	height:0px;
+	padding:0px;
+}
+#socialContent {
+	padding:9px;
+}
+#social a {
+	display:block;
+	height:35px;
+	width:35px;
+	float:right;
+	padding:0px;
+	margin-right:4px;
+	text-decoration:none;
+	font-size:0px;
+	line-height:0px;
+	
+}
+#facebook {
+	background:url('../image/facebook.png') center center no-repeat white;
+}
+#twitter {
+	background:url('../image/2012-03-14_1445.png') center center no-repeat white;
+}
+#rss {
+	background:url('../image/rss.png') center center no-repeat white;
+}
+
+
+
+/*..........HEADER..........*/
+#header {
+	height:109px;
+}
+#headerContent {
+}
+#title {
+	margin-top: 15px;
+	background: url(images/logo-trans.png) no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size:30px;
+	line-height:30px;
+	margin-bottom: 0px;
+}
+#title a {
+	color: #ddd;
+	text-decoration: none;
+	font-family: arial black;
+	font-size: 40px;
+	text-shadow: 0px 0px 10px black;
+	text-decoration: none;
+	letter-spacing:-1px;
+}
+#subtitle {
+	color: white;
+	font-style: italic;
+	margin-left: 100px;
+	font-weight:bold;
+	text-shadow: 0px 0px 10px black;
+}
+
+
+
+/*..........MIDDLE..........*/
+#middle {
+	margin-top:18px;
+	border-radius:10px 10px 0px 0px;
+}
+
+
+
+/*..........CONTENT..........*/
+#content {
+	background:white;
+	padding:20px;
+	margin-right: 320px;
+}
+#content.wide {
+	margin-right: 0px;
+}
+#content h3 {
+	color:#222;
+	font-size:22px;
+	font-family:times new roman;
+	font-weight:normal;
+}
+
+
+
+/*..........SIDE..........*/
+#side {
+	width:280px;
+	padding:0px;
+}
+#side.right {
+	float:right;
+}
+#side.left {
+	float:left;
+}
+#side.bottom {
+	clear:both;
+}
+#side .block-content {
+	padding:20px;
+	padding-top:0px;
+	background:#fff;
+	border:8px solid #EDEDED;
+	margin-bottom:18px;
+}
+#side .block-content h3 {
+	background: #EBE9E1;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #363636;
+	font-weight: bold;
+	padding: 5px 8px;
+	display: block;
+	margin: 0 0 7px 0;
+	text-align: left;
+	border-bottom: 1px solid #DEDBD1;
+	height: 16px;
+}
+
+
+
+/*..........BOTTOM..........*/
+#bottom {
+}
+#bottomContent {
+	padding:0px;
+	width:1000px;
+}
+#bottomContent .content {
+	display:table;
+	width:100%;
+	border-spacing:18px;
+}
+#bottomContent .post {
+	padding:20px;
+	background:#fff;
+	border:8px solid #EDEDED;
+	display:table-cell;
+}
+#bottomContent .post h3 {
+	background: #EBE9E1;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #363636;
+	font-weight: bold;
+	padding: 5px 8px;
+	display: block;
+	margin: 0 0 7px 0;
+	text-align: left;
+	border-bottom: 1px solid #DEDBD1;
+	height: 16px;
+}
+
+
+
+/*..........FOOTER..........*/
+#footer {
+	clear:both;
+}
+#copyright {
+	float:left;
+}
+#poweredBy {
+	float:right;
+}
+#poweredBy a {
+	color: #c8802C;
+}

@@ -1,0 +1,16 @@
+======================RULES
+- All variable and functions names are to be camel case(e.g. camelCase). File names are encouraged to be the same. The first character of functions, variables, and file names must be a lowercase letter.
+- If there must be a prefix in any case(functions, variables, classes, DB tables...), this prefix must be "IS_".
+
+======================MODULES
+The instantSite system is an MVC framework, using an SQL DB for the content. Then there is the editing system, that ties into the MVC also. It includes modules, which are what we're going to be concentrating on.
+The modules are all contained in the editor->module folder, and then inside it's own folder. We're going to make an example module called "Hello world". Follow these steps.
+
+
+
+
+
+=====================TODO
+fix repitition
+bubble popup in editor
+enter key...fix in dialogs
